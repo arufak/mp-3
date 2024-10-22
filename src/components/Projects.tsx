@@ -1,4 +1,3 @@
-import React from 'react';
 import Calculator from './Calculator';  // Import the Calculator component
 
 export default function Projects() {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function Calculator() {
   const [num1, setNum1] = useState<number | string>('');

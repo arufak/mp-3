@@ -1,4 +1,3 @@
-import React from 'react';
 export default function References() {
     return (React.createElement("main", null,
         React.createElement("section", { className: "title" },

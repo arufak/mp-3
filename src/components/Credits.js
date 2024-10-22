@@ -1,4 +1,3 @@
-import React from 'react';
 export default function Credits() {
     return (React.createElement("main", null,
         React.createElement("div", { className: "title" },

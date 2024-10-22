@@ -1,4 +1,3 @@
-import React from 'react';
 export default function Home() {
     return (React.createElement("main", { className: "title" },
         React.createElement("section", null,

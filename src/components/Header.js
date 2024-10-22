@@ -1,4 +1,3 @@
-import React from 'react';
 export default function Header() {
     return (React.createElement("header", null,
         React.createElement("h5", null, "Arufa Khanom"),
