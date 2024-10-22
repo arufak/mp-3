@@ -1,0 +1,398 @@
+/* Import Custom Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:wght@600&family=Lato:wght@400;700&display=swap');
+
+/* Body */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #0f6369; /* Dark Green Background */
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Center the items horizontally */
+    padding: 10px;
+    background-color: #565356;
+    color: #fff;
+    width: 100%;
+}
+
+
+/* Section Styling */
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #000000; /* Black text for all sections */
+}
+
+/* Headings */
+h1, h2, h3 {
+    margin-bottom: 10px;
+    padding: 0;
+    color: #000000; /* Black text for all headings */
+}
+
+h5{
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+h6{
+    font-size: 1rem;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 5px; /* Ensure spacing above paragraph */
+    color: #000000; /* White text for the description */
+}
+
+/* List items */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #000000; /* Black text for list items */
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    justify-content: center; /* Center elements vertically */
+    padding: 20px;
+    background-color: #565356;
+    color: #fff;
+    width: 100%;
+    text-align: center; /* Ensure text is centered */
+}
+
+/* Footer links */
+footer a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 5px; /* Space between links */
+}
+
+footer p {
+    margin: 10px 0; /* Add spacing between each paragraph */
+}
+
+/* Navigation */
+nav {
+    background-color: #b4d7ff;
+    color: #000;
+    width: 200px;
+    padding: 20px; 
+    flex-shrink: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: #756785; /* Gold color on hover */
+    transition: color 0.3s;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Title */
+.title h1 {
+    color: black;
+}
+
+/* Main content */
+main {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #0f6369;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    min-height: calc(100vh - 60px);;
+}
+
+
+
+.profile-pic {
+    display: block;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #8b4513;
+}
+
+/* Introduction Section */
+.intro {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.intro h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #ffffff; /* Gold color */
+}
+
+.intro h1 {
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #f9f9f9;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 900px;
+    background-color: #ffffff; /* Slightly lighter green for the about box */
+    padding: 40px;
+    border-radius: 8px;
+    color: #000000;
+}
+
+.about h3 {
+    margin-bottom: 10px;
+    padding: 0;
+    color: #000000; /* Black text for all headings */
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-details {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color: #010101;
+}
+
+.left-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.right-column {
+    flex: 2;
+}
+
+.about p { 
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #565356;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn:hover {
+    background-color: #756785; /* Darker purple on hover */
+}
+
+.btn i {
+    font-size: 1.2rem;
+}
+
+/* Calculator */
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns for classic calculator layout */
+    gap: 15px; /* Add more spacing between elements */
+    max-width: 320px;
+    margin: 20px auto;
+    background-color: #9d84b0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+
+.calculator input {
+    grid-column: span 4; /* Spans all four columns */
+    height: 50px;
+    padding: 5px;
+    font-size: 1.5em;
+    text-align: right;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.calculator button {
+    height: 50px;
+    width: 70px;
+    font-size: 1.5em;
+    background-color: #d390d3;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.2s ease;
+    margin: 5px;
+}
+
+/* Center buttons in grid and spread them out */
+.calculator div {
+    grid-column: span 4; /* Ensure buttons are aligned centrally */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns for the buttons */
+    grid-gap: 15px; /* Add spacing between buttons */
+    justify-items: center; /* Center the buttons */
+    padding-top: 10px;
+    text-align: right;
+}
+
+/* Hover effect for regular buttons */
+.calculator button:hover {
+    background-color: #97c5ab;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+}
+
+.result-box {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: white;
+    color: #000; /* Default black text color for positive values */
+    text-align: right; /* Align the text to the right */
+}
+
+.result-box.negative {
+    color: red; /* Red text color for negative values */
+    text-align: right; /* Align the text to the right */
+}
+
+/* Responsive Styling for screens smaller than 750px */
+@media only screen and (max-width: 750px) {
+    .container {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+        margin: 0;
+        padding: 0.42%;
+    }
+
+    nav ul li a {
+        font-size: calc(16px + 1px);
+    }
+
+    main {
+        width: 100%;
+        padding: 0.83%;
+        text-align: center;
+    }
+
+    header {
+        align-items: center; /* Center the items horizontally */
+    }
+
+    .profile-pic {
+        margin-left: 0.83%;
+        margin-right: 1.67%;
+        margin-top: 1.67%;
+        height: 150px;
+        float: none;
+    }
+}
